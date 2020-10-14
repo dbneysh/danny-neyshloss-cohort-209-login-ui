@@ -1,5 +1,24 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        
+body {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+#main-box {
+    width: 50%;
+    height: 50%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 46px 46px 46px 46px;
+    border: 0px solid #000000;
+}
+
+#login {
+    align-self: flex-start;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
