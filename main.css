@@ -1,22 +1,26 @@
 body {
+    background-color: #FCFCFC;
     margin: 0;
 }
 
 #container {
     align-items: center;
-    justify-content: center;
-    background-color: #F5F5F5;
     display: flex;
     height: 100vh;
+    justify-content: center;
     width: 100vw;
-    
 }
 
 #login-form {
     background-color: #FFFFFF;
-    height: 50px;
-    width: 50px;
-    padding: 16px;
+    border-radius: 43px 43px 43px 43px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: lighter;
+    height: 250px;
+    justify-items: center;
+    padding: 50px;
+    text-align: center;
+    width: 300px;
 }
 
 input {
@@ -24,5 +28,14 @@ input {
 }
 
 button {
-  padding: 4px 10px;  
+    align-items: center;
+    background-color: #419dfa;
+    border-color: #419dfa;
+    border-radius: 43px 43px 43px 43px;
+    box-shadow: -1px 3px 4px 3px rgba(0,0,0,0.09);
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    justify-content: center;
+    margin: 20px 4px;
+    padding: 4px 100px;  
 }
