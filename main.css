@@ -14,6 +14,7 @@ body {
 #login-form {
     background-color: #FFFFFF;
     border-radius: 43px 43px 43px 43px;
+    box-shadow: -1px 6px 15px 11px rgba(0,0,0,0.73);
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-weight: lighter;
     height: 250px;
